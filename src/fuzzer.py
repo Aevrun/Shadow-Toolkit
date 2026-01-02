@@ -1,5 +1,5 @@
 import random
-# 6dKym~27xMTf,29JqD__2tjF:b+HanfL
+
 def fuzzer(length: int, char_start: int, char_range: int) -> str:
     return "".join([chr(random.randrange(char_start, char_start+char_range)) for _ in range(length)])
 
