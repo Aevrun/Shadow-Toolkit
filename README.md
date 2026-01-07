@@ -31,3 +31,17 @@ cd fuzzing-portfolio
 # Create and activate virtual environment
 python3 -m venv .venv
 source .venv/bin/activate  # Windows: .venv\Scripts\activate
+
+💻 Usage
+The shadow.py script acts as the central manager. You can see all options by running python shadow.py --help.
+
+Port Scanning
+python shadow.py scan -t 127.0.0.1 -p 1-1024
+
+Header Analysis
+python shadow.py header -l [https://example.com](https://example.com)
+
+Web Crawling
+python shadow.py crawl -u [https://example.com](https://example.com)
+
+Disclaimer: This tool is for educational purposes only. Do not use it against targets without explicit permission.
