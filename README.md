@@ -23,3 +23,11 @@ fuzzing-portfolio/
 │   ├── crawler.py      # Web Crawling Logic
 │   └── util.py         # Shared Utility Functions (Parsing/Validation)
 └── Shadow_toolkit.log  # Automated Session Logging
+
+# Clone the repository
+git clone <your-repo-url>
+cd fuzzing-portfolio
+
+# Create and activate virtual environment
+python3 -m venv .venv
+source .venv/bin/activate  # Windows: .venv\Scripts\activate
