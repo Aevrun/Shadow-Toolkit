@@ -37,6 +37,7 @@ def main():
     fuzz_parser = subparser.add_parser("fuzz",help="Fuzzing server file system")
     fuzz_parser.add_argument("-u","--url",required=True)
     fuzz_parser.add_argument("-w","--wordlist",required=True)
+    fuzz_parser.add_argument("-e","--extension",default="")
 
     args = parser.parse_args()
 
@@ -49,7 +50,7 @@ def main():
     elif args.command == "crawl":
         run_crawler(args.url)
     elif args.command == "fuzz":
-        run_fuzzer(args.url,args.wordlist)
+        run_fuzzer(args.url,args.wordlist,args.extension)
 
 if __name__ == "__main__":
     main()
