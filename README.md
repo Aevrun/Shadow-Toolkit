@@ -1,4 +1,4 @@
-# Shadow Toolkit: Week 1 Security Suite
+# Shadow Toolkit: Security Suite
 
 A modular, professional-grade security reconnaissance toolkit developed in Python. This project was built to demonstrate core competencies in network protocols, web architecture, and defensive security analysis as part of my **Security Testing Portfolio**.
 
