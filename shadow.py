@@ -8,6 +8,7 @@ from src.headers import run_header_tester
 from src.param_fuzzer import run_param_fuzzer
 from src.scanner import run_scanner
 from src.util import port_parser
+from src.xss_scanner import check_xss
 
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 Parameter_path = os.path.join(BASE_DIR,"params.txt")
@@ -52,6 +53,13 @@ def main():
     # automation
     auto_parser = subparser.add_parser("auto",help="Automatically crawl links and fuzz them")
     auto_parser.add_argument("-u","--url",required=True)
+
+
+    # xss
+    xss_parser = subparser.add_parser("xss",help="XSS scanner")
+    xss_parser.add_argument("-u","--url",required=True)
+    xss_parser.add_argument("-p","--parameter",required=True)
+
     args = parser.parse_args()
 
     if args.command == "scan":
@@ -81,6 +89,8 @@ def main():
                 if "?" in full_target or ".php" in full_target:
                     print(f"\n[+] Auto-Starting Fuzzer on: {full_target}")
                     run_param_fuzzer(full_target,Parameter_path)
+    elif args.command == "xss":
+        check_xss(args.url, args.parameter)
 
 if __name__ == "__main__":
     main()
