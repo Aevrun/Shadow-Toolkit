@@ -2,18 +2,8 @@
 import time
 import requests
 import logging
-from src.crawler import LOG_DIR
 
-LOG_FILE = LOG_DIR / "fuzzer.log"
-print("LOG_FILE is:", LOG_FILE.resolve())
-logging.basicConfig(
-    level=logging.INFO,
-    format='%(asctime)s - %(levelname)s - %(message)s',
-    handlers=[
-        logging.FileHandler(LOG_FILE),
-        logging.StreamHandler()
-    ], force=True
-)
+logger = logging.getLogger(__name__)
 
 def run_fuzzer(url: str, wordlist: str, extension: str) -> None:
     print("=" * 50)
@@ -42,12 +32,12 @@ def run_fuzzer(url: str, wordlist: str, extension: str) -> None:
                         feedback = response.status_code
                         if feedback != 404:
                             findings += 1
-                            logging.info(f"[{response.status_code}] Found: {final_url}")
+                            logger.info(f"[{response.status_code}] Found: {final_url}")
                             with open("fuzz_results.txt", "a") as f:
                                 f.write(f"{feedback} Found: {final_url}\n")
                     except requests.exceptions.RequestException:
                         continue
     except FileNotFoundError:
-        logging.error(f"[!]ERROR: Wordlist {wordlist} not found.")
-    logging.info(f"[!] Link found: {findings}")
+        logger.error(f"[!]ERROR: Wordlist {wordlist} not found.")
+    logger.info(f"[!] Link found: {findings}")
     print("=" * 50)

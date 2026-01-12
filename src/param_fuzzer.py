@@ -3,6 +3,9 @@ import time
 
 import requests
 import random
+import logging
+
+logger = logging.getLogger(__name__)
 
 headers = {
     "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
@@ -28,12 +31,12 @@ def run_param_fuzzer(url, param_list) -> None:
                         feedback = requests.get(final_url,headers=headers,timeout=2)
                         new_length = len(feedback.text)
                         if new_length != baseline_length:
-                            print(f"Found: {final_url} (Length: {new_length}")
+                            logger.info(f"Found: {final_url} (Length: {new_length}")
                             with open("Param_fuzzing_result.txt", 'a') as f:
                                 f.write(f"Found: {final_url} (Diff: {new_length-baseline_length})\n")
                     except requests.exceptions.RequestException:
                         continue
     except FileNotFoundError:
-        print("[!] ERROR: File not found.")
+        logger.error("[!] ERROR: File not found.")
 
-    print("\n[+] Parameter fuzzing complete.")
+    logger.info("\n[+] Parameter fuzzing complete.")

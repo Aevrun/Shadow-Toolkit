@@ -1,2 +1,7 @@
 Found: http://testphp.vulnweb.com/listproducts.php?cat=7210 (Diff: -120)
 Found: http://testphp.vulnweb.com/listproducts.php?cat=NPFzi (Diff: -2786)
+Found: http://testphp.vulnweb.com?wp-login.php=EdtAu (Diff: -4788)
+Found: http://testphp.vulnweb.com?config=3402 (Diff: -4788)
+Found: http://testphp.vulnweb.com?config=EdtAu (Diff: -4788)
+Found: http://testphp.vulnweb.com?config.php=3402 (Diff: -4788)
+Found: http://testphp.vulnweb.com?config.php=EdtAu (Diff: -4788)

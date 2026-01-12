@@ -2,23 +2,11 @@
 import requests
 import logging
 
-from src.crawler import LOG_DIR
-
-LOG_FILE = LOG_DIR / "Header.log"
-
-logging.basicConfig(
-    level=logging.INFO,
-    format='%(asctime)s - %(levelname)s - %(message)s',
-    handlers=[
-        logging.FileHandler(LOG_FILE),
-        logging.StreamHandler()
-    ], force=True
-)
+logger = logging.getLogger(__name__)
 
 def run_header_tester(link: str) -> None:
         try:
-            print("=" * 50)
-            logging.info(f"Beginning Header Testing for: {link}")
+            logger.info(f"Beginning Header Testing for: {link}")
             response = requests.get(link)
             code  = response.status_code
             if code == 200:
@@ -29,10 +17,9 @@ def run_header_tester(link: str) -> None:
 
                 for each in security_check:
                     if each not in header:
-                        print("=" * 30)
-                        logging.info(f"WARNING! {each} is missing in the Header")
-                        print("=" * 30)
+                        logger.info(f"WARNING! {each} is missing in the Header")
+
 
         except requests.exceptions.RequestException:
-            logging.error("[!] ERROR: could not connect to the target")
+            logger.error("[!] ERROR: could not connect to the target")
 

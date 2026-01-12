@@ -1,0 +1,599 @@
+2026-01-12 18:11:25,380-src.auto-INFO-======================================================================
+2026-01-12 18:11:25,380-src.auto-INFO-Performing a header scan of the url http://testphp.vulnweb.com
+2026-01-12 18:11:25,380-src.headers-INFO-Beginning Header Testing for: http://testphp.vulnweb.com
+2026-01-12 18:11:25,779-src.headers-INFO-WARNING! X-Frame-Options is missing in the Header
+2026-01-12 18:11:25,780-src.headers-INFO-WARNING! Content-Security-Policy is missing in the Header
+2026-01-12 18:11:25,780-src.headers-INFO-WARNING! Strict-Transport-Security is missing in the Header
+2026-01-12 18:11:25,780-src.auto-INFO-======================================================================
+2026-01-12 18:11:25,780-src.auto-INFO-Crawling the url http://testphp.vulnweb.com
+2026-01-12 18:11:25,780-src.crawler-INFO-Starting crawl for URL: http://testphp.vulnweb.com
+2026-01-12 18:11:26,158-src.crawler-INFO-Following links were scraped from the site(http://testphp.vulnweb.com):
+2026-01-12 18:11:26,158-src.crawler-INFO-FOUND:https://www.acunetix.com/
+2026-01-12 18:11:26,158-src.crawler-INFO-FOUND:https://www.acunetix.com/vulnerability-scanner/
+2026-01-12 18:11:26,158-src.crawler-INFO-FOUND:index.php
+2026-01-12 18:11:26,158-src.crawler-INFO-FOUND:categories.php
+2026-01-12 18:11:26,158-src.crawler-INFO-FOUND:artists.php
+2026-01-12 18:11:26,159-src.crawler-INFO-FOUND:disclaimer.php
+2026-01-12 18:11:26,159-src.crawler-INFO-FOUND:cart.php
+2026-01-12 18:11:26,159-src.crawler-INFO-FOUND:guestbook.php
+2026-01-12 18:11:26,159-src.crawler-INFO-FOUND:AJAX/index.php
+2026-01-12 18:11:26,159-src.crawler-INFO-FOUND:categories.php
+2026-01-12 18:11:26,159-src.crawler-INFO-FOUND:artists.php
+2026-01-12 18:11:26,159-src.crawler-INFO-FOUND:cart.php
+2026-01-12 18:11:26,159-src.crawler-INFO-FOUND:login.php
+2026-01-12 18:11:26,159-src.crawler-INFO-[!]IMPORTANT: login.php
+2026-01-12 18:11:26,159-src.crawler-INFO-FOUND:userinfo.php
+2026-01-12 18:11:26,159-src.crawler-INFO-FOUND:guestbook.php
+2026-01-12 18:11:26,159-src.crawler-INFO-FOUND:AJAX/index.php
+2026-01-12 18:11:26,159-src.crawler-INFO-FOUND:http://www.acunetix.com
+2026-01-12 18:11:26,159-src.crawler-INFO-FOUND:https://www.acunetix.com/vulnerability-scanner/php-security-scanner/
+2026-01-12 18:11:26,160-src.crawler-INFO-FOUND:https://www.acunetix.com/blog/articles/prevent-sql-injection-vulnerabilities-in-php-applications/
+2026-01-12 18:11:26,160-src.crawler-INFO-FOUND:http://www.eclectasy.com/Fractal-Explorer/index.html
+2026-01-12 18:11:26,160-src.crawler-INFO-FOUND:http://www.acunetix.com
+2026-01-12 18:11:26,160-src.crawler-INFO-FOUND:privacy.php
+2026-01-12 18:11:26,160-src.crawler-INFO-FOUND:mailto:wvs@acunetix.com
+2026-01-12 18:11:26,160-src.crawler-INFO-FOUND:/Mod_Rewrite_Shop/
+2026-01-12 18:11:26,160-src.crawler-INFO-FOUND:/hpp/
+2026-01-12 18:12:12,296-src.auto-INFO-======================================================================
+2026-01-12 18:12:12,297-src.auto-INFO-Performing a header scan of the url http://testphp.vulnweb.com
+2026-01-12 18:12:12,297-src.headers-INFO-Beginning Header Testing for: http://testphp.vulnweb.com
+2026-01-12 18:12:12,689-src.headers-INFO-WARNING! X-Frame-Options is missing in the Header
+2026-01-12 18:12:12,689-src.headers-INFO-WARNING! Content-Security-Policy is missing in the Header
+2026-01-12 18:12:12,689-src.headers-INFO-WARNING! Strict-Transport-Security is missing in the Header
+2026-01-12 18:12:12,690-src.auto-INFO-======================================================================
+2026-01-12 18:12:12,690-src.auto-INFO-Crawling the url http://testphp.vulnweb.com
+2026-01-12 18:12:12,690-src.crawler-INFO-Starting crawl for URL: http://testphp.vulnweb.com
+2026-01-12 18:12:13,073-src.crawler-INFO-Following links were scraped from the site(http://testphp.vulnweb.com):
+2026-01-12 18:12:13,073-src.crawler-INFO-FOUND:https://www.acunetix.com/
+2026-01-12 18:12:13,073-src.crawler-INFO-FOUND:https://www.acunetix.com/vulnerability-scanner/
+2026-01-12 18:12:13,073-src.crawler-INFO-FOUND:index.php
+2026-01-12 18:12:13,073-src.crawler-INFO-FOUND:categories.php
+2026-01-12 18:12:13,073-src.crawler-INFO-FOUND:artists.php
+2026-01-12 18:12:13,073-src.crawler-INFO-FOUND:disclaimer.php
+2026-01-12 18:12:13,073-src.crawler-INFO-FOUND:cart.php
+2026-01-12 18:12:13,073-src.crawler-INFO-FOUND:guestbook.php
+2026-01-12 18:12:13,074-src.crawler-INFO-FOUND:AJAX/index.php
+2026-01-12 18:12:13,074-src.crawler-INFO-FOUND:categories.php
+2026-01-12 18:12:13,074-src.crawler-INFO-FOUND:artists.php
+2026-01-12 18:12:13,074-src.crawler-INFO-FOUND:cart.php
+2026-01-12 18:12:13,074-src.crawler-INFO-FOUND:login.php
+2026-01-12 18:12:13,074-src.crawler-INFO-[!]IMPORTANT: login.php
+2026-01-12 18:12:13,074-src.crawler-INFO-FOUND:userinfo.php
+2026-01-12 18:12:13,074-src.crawler-INFO-FOUND:guestbook.php
+2026-01-12 18:12:13,074-src.crawler-INFO-FOUND:AJAX/index.php
+2026-01-12 18:12:13,074-src.crawler-INFO-FOUND:http://www.acunetix.com
+2026-01-12 18:12:13,074-src.crawler-INFO-FOUND:https://www.acunetix.com/vulnerability-scanner/php-security-scanner/
+2026-01-12 18:12:13,074-src.crawler-INFO-FOUND:https://www.acunetix.com/blog/articles/prevent-sql-injection-vulnerabilities-in-php-applications/
+2026-01-12 18:12:13,074-src.crawler-INFO-FOUND:http://www.eclectasy.com/Fractal-Explorer/index.html
+2026-01-12 18:12:13,074-src.crawler-INFO-FOUND:http://www.acunetix.com
+2026-01-12 18:12:13,074-src.crawler-INFO-FOUND:privacy.php
+2026-01-12 18:12:13,074-src.crawler-INFO-FOUND:mailto:wvs@acunetix.com
+2026-01-12 18:12:13,074-src.crawler-INFO-FOUND:/Mod_Rewrite_Shop/
+2026-01-12 18:12:13,075-src.crawler-INFO-FOUND:/hpp/
+2026-01-12 18:12:13,076-src.auto-INFO-Fuzzing link: http://testphp.vulnweb.com/categories.php
+2026-01-12 18:12:17,893-src.fuzzer-INFO-[200] Found: http://testphp.vulnweb.com/categories.php/wp-login.php
+2026-01-12 18:12:20,808-src.fuzzer-INFO-[200] Found: http://testphp.vulnweb.com/categories.php/config.php
+2026-01-12 18:13:18,562-src.fuzzer-INFO-[200] Found: http://testphp.vulnweb.com/categories.php/info.php
+2026-01-12 18:13:29,967-src.fuzzer-INFO-[!] Link found: 3
+2026-01-12 18:13:29,967-src.auto-INFO-
+[*] Brute-forcing parameters from wordlist on: http://testphp.vulnweb.com/categories.php
+2026-01-12 18:13:38,677-src.auto-INFO-Fuzzing link: http://testphp.vulnweb.com/index.php
+2026-01-12 18:13:43,605-src.fuzzer-INFO-[200] Found: http://testphp.vulnweb.com/index.php/wp-login.php
+2026-01-12 18:13:46,509-src.fuzzer-INFO-[200] Found: http://testphp.vulnweb.com/index.php/config.php
+2026-01-12 18:14:47,496-src.fuzzer-INFO-[200] Found: http://testphp.vulnweb.com/index.php/info.php
+2026-01-12 18:14:59,989-src.fuzzer-INFO-[!] Link found: 3
+2026-01-12 18:14:59,990-src.auto-INFO-
+[*] Brute-forcing parameters from wordlist on: http://testphp.vulnweb.com/index.php
+2026-01-12 18:15:09,773-src.auto-INFO-Fuzzing link: http://testphp.vulnweb.com/artists.php
+2026-01-12 18:15:15,350-src.fuzzer-INFO-[200] Found: http://testphp.vulnweb.com/artists.php/wp-login.php
+2026-01-12 18:15:19,224-src.fuzzer-INFO-[200] Found: http://testphp.vulnweb.com/artists.php/config.php
+2026-01-12 18:16:15,776-src.fuzzer-INFO-[200] Found: http://testphp.vulnweb.com/artists.php/info.php
+2026-01-12 18:16:26,922-src.fuzzer-INFO-[!] Link found: 3
+2026-01-12 18:16:26,923-src.auto-INFO-
+[*] Brute-forcing parameters from wordlist on: http://testphp.vulnweb.com/artists.php
+2026-01-12 18:16:36,950-src.auto-INFO-Fuzzing link: http://testphp.vulnweb.com/cart.php
+2026-01-12 18:16:43,543-src.fuzzer-INFO-[200] Found: http://testphp.vulnweb.com/cart.php/wp-login.php
+2026-01-12 18:16:46,689-src.fuzzer-INFO-[200] Found: http://testphp.vulnweb.com/cart.php/config.php
+2026-01-12 18:17:42,536-src.fuzzer-INFO-[200] Found: http://testphp.vulnweb.com/cart.php/info.php
+2026-01-12 18:17:56,424-src.fuzzer-INFO-[!] Link found: 3
+2026-01-12 18:17:56,425-src.auto-INFO-
+[*] Brute-forcing parameters from wordlist on: http://testphp.vulnweb.com/cart.php
+2026-01-12 18:18:05,936-src.auto-INFO-Fuzzing link: http://testphp.vulnweb.com/AJAX/index.php
+2026-01-12 18:18:10,766-src.fuzzer-INFO-[200] Found: http://testphp.vulnweb.com/AJAX/index.php/wp-login.php
+2026-01-12 18:18:13,667-src.fuzzer-INFO-[200] Found: http://testphp.vulnweb.com/AJAX/index.php/config.php
+2026-01-12 18:19:10,876-src.fuzzer-INFO-[200] Found: http://testphp.vulnweb.com/AJAX/index.php/info.php
+2026-01-12 18:19:23,980-src.fuzzer-INFO-[!] Link found: 3
+2026-01-12 18:19:23,981-src.auto-INFO-
+[*] Brute-forcing parameters from wordlist on: http://testphp.vulnweb.com/AJAX/index.php
+2026-01-12 18:19:32,632-src.auto-INFO-Fuzzing link: http://testphp.vulnweb.com/login.php
+2026-01-12 18:19:37,448-src.fuzzer-INFO-[200] Found: http://testphp.vulnweb.com/login.php/wp-login.php
+2026-01-12 18:19:40,352-src.fuzzer-INFO-[200] Found: http://testphp.vulnweb.com/login.php/config.php
+2026-01-12 18:20:38,964-src.fuzzer-INFO-[200] Found: http://testphp.vulnweb.com/login.php/info.php
+2026-01-12 18:20:50,958-src.fuzzer-INFO-[!] Link found: 3
+2026-01-12 18:20:50,959-src.auto-INFO-
+[*] Brute-forcing parameters from wordlist on: http://testphp.vulnweb.com/login.php
+2026-01-12 18:21:00,850-src.auto-INFO-Fuzzing link: http://testphp.vulnweb.com/hpp/
+2026-01-12 18:22:27,015-src.fuzzer-INFO-[!] Link found: 0
+2026-01-12 18:22:27,017-src.auto-INFO-Fuzzing link: http://testphp.vulnweb.com/userinfo.php
+2026-01-12 18:23:26,155-src.fuzzer-INFO-[500] Found: http://testphp.vulnweb.com/userinfo.php/upload.env
+2026-01-12 18:23:27,368-src.fuzzer-INFO-[500] Found: http://testphp.vulnweb.com/userinfo.php/uploads
+2026-01-12 18:23:30,891-src.fuzzer-INFO-[500] Found: http://testphp.vulnweb.com/userinfo.php/images
+2026-01-12 18:37:13,341-src.auto-INFO-======================================================================
+2026-01-12 18:37:13,341-src.auto-INFO-Performing a header scan of the url http://testphp.vulnweb.com
+2026-01-12 18:37:13,341-src.headers-INFO-Beginning Header Testing for: http://testphp.vulnweb.com
+2026-01-12 18:37:16,860-src.headers-INFO-WARNING! X-Frame-Options is missing in the Header
+2026-01-12 18:37:16,861-src.headers-INFO-WARNING! Content-Security-Policy is missing in the Header
+2026-01-12 18:37:16,861-src.headers-INFO-WARNING! Strict-Transport-Security is missing in the Header
+2026-01-12 18:37:16,861-src.auto-INFO-Fuzzing link: http://testphp.vulnweb.com
+2026-01-12 18:37:17,551-src.fuzzer-INFO-[200] Found: http://testphp.vulnweb.com/admin
+2026-01-12 18:37:26,729-src.fuzzer-INFO-[500] Found: http://testphp.vulnweb.com/config.php.zip
+2026-01-12 18:37:30,115-src.fuzzer-INFO-[500] Found: http://testphp.vulnweb.com/.gitignore
+2026-01-12 18:37:51,653-src.fuzzer-INFO-[500] Found: http://testphp.vulnweb.com/staging.env
+2026-01-12 18:37:54,073-src.fuzzer-INFO-[500] Found: http://testphp.vulnweb.com/old
+2026-01-12 18:37:57,207-src.fuzzer-INFO-[500] Found: http://testphp.vulnweb.com/new.zip
+2026-01-12 18:38:26,275-src.fuzzer-INFO-[500] Found: http://testphp.vulnweb.com/images
+2026-01-12 18:38:43,153-src.fuzzer-INFO-[200] Found: http://testphp.vulnweb.com/vendor
+2026-01-12 18:39:25,345-src.fuzzer-INFO-[500] Found: http://testphp.vulnweb.com/private.env
+2026-01-12 18:39:28,371-src.fuzzer-INFO-[!] Link found: 9
+2026-01-12 18:39:28,371-src.auto-INFO-======================================================================
+2026-01-12 18:39:28,371-src.auto-INFO-Crawling the url http://testphp.vulnweb.com
+2026-01-12 18:39:28,371-src.crawler-INFO-Starting crawl for URL: http://testphp.vulnweb.com
+2026-01-12 18:39:28,765-src.crawler-INFO-Following links were scraped from the site(http://testphp.vulnweb.com):
+2026-01-12 18:39:28,766-src.crawler-INFO-FOUND:https://www.acunetix.com/
+2026-01-12 18:39:28,766-src.crawler-INFO-FOUND:https://www.acunetix.com/vulnerability-scanner/
+2026-01-12 18:39:28,766-src.crawler-INFO-FOUND:index.php
+2026-01-12 18:39:28,766-src.crawler-INFO-FOUND:categories.php
+2026-01-12 18:39:28,766-src.crawler-INFO-FOUND:artists.php
+2026-01-12 18:39:28,766-src.crawler-INFO-FOUND:disclaimer.php
+2026-01-12 18:39:28,766-src.crawler-INFO-FOUND:cart.php
+2026-01-12 18:39:28,766-src.crawler-INFO-FOUND:guestbook.php
+2026-01-12 18:39:28,766-src.crawler-INFO-FOUND:AJAX/index.php
+2026-01-12 18:39:28,766-src.crawler-INFO-FOUND:categories.php
+2026-01-12 18:39:28,766-src.crawler-INFO-FOUND:artists.php
+2026-01-12 18:39:28,766-src.crawler-INFO-FOUND:cart.php
+2026-01-12 18:39:28,766-src.crawler-INFO-FOUND:login.php
+2026-01-12 18:39:28,766-src.crawler-INFO-[!]IMPORTANT: login.php
+2026-01-12 18:39:28,767-src.crawler-INFO-FOUND:userinfo.php
+2026-01-12 18:39:28,767-src.crawler-INFO-FOUND:guestbook.php
+2026-01-12 18:39:28,767-src.crawler-INFO-FOUND:AJAX/index.php
+2026-01-12 18:39:28,767-src.crawler-INFO-FOUND:http://www.acunetix.com
+2026-01-12 18:39:28,767-src.crawler-INFO-FOUND:https://www.acunetix.com/vulnerability-scanner/php-security-scanner/
+2026-01-12 18:39:28,767-src.crawler-INFO-FOUND:https://www.acunetix.com/blog/articles/prevent-sql-injection-vulnerabilities-in-php-applications/
+2026-01-12 18:39:28,767-src.crawler-INFO-FOUND:http://www.eclectasy.com/Fractal-Explorer/index.html
+2026-01-12 18:39:28,767-src.crawler-INFO-FOUND:http://www.acunetix.com
+2026-01-12 18:39:28,767-src.crawler-INFO-FOUND:privacy.php
+2026-01-12 18:39:28,767-src.crawler-INFO-FOUND:mailto:wvs@acunetix.com
+2026-01-12 18:39:28,767-src.crawler-INFO-FOUND:/Mod_Rewrite_Shop/
+2026-01-12 18:39:28,767-src.crawler-INFO-FOUND:/hpp/
+2026-01-12 18:39:28,769-src.auto-INFO-
+[*] Brute-forcing parameters from wordlist on: http://testphp.vulnweb.com/index.php
+2026-01-12 18:39:28,769-src.xss_scanner-INFO-[*] Sending probe to: http://testphp.vulnweb.com/index.php?id=<marquee>SHADOW_XSS</marquee>
+2026-01-12 18:39:29,289-src.xss_scanner-INFO-[*] Server responded with status code: 200
+2026-01-12 18:39:29,289-src.sqli_scanner-INFO-[*] Probing for SQLi on: id...
+2026-01-12 18:39:30,086-src.xss_scanner-INFO-[*] Sending probe to: http://testphp.vulnweb.com/index.php?page=<marquee>SHADOW_XSS</marquee>
+2026-01-12 18:39:31,229-src.xss_scanner-INFO-[*] Server responded with status code: 200
+2026-01-12 18:39:31,230-src.sqli_scanner-INFO-[*] Probing for SQLi on: page...
+2026-01-12 18:39:32,115-src.xss_scanner-INFO-[*] Sending probe to: http://testphp.vulnweb.com/index.php?dir=<marquee>SHADOW_XSS</marquee>
+2026-01-12 18:39:32,717-src.xss_scanner-INFO-[*] Server responded with status code: 200
+2026-01-12 18:39:32,717-src.sqli_scanner-INFO-[*] Probing for SQLi on: dir...
+2026-01-12 18:39:33,479-src.xss_scanner-INFO-[*] Sending probe to: http://testphp.vulnweb.com/index.php?file=<marquee>SHADOW_XSS</marquee>
+2026-01-12 18:39:34,215-src.xss_scanner-INFO-[*] Server responded with status code: 200
+2026-01-12 18:39:34,216-src.sqli_scanner-INFO-[*] Probing for SQLi on: file...
+2026-01-12 18:39:34,738-src.xss_scanner-INFO-[*] Sending probe to: http://testphp.vulnweb.com/index.php?cat=<marquee>SHADOW_XSS</marquee>
+2026-01-12 18:39:35,530-src.xss_scanner-INFO-[*] Server responded with status code: 200
+2026-01-12 18:39:35,531-src.sqli_scanner-INFO-[*] Probing for SQLi on: cat...
+2026-01-12 18:39:36,050-src.xss_scanner-INFO-[*] Sending probe to: http://testphp.vulnweb.com/index.php?category=<marquee>SHADOW_XSS</marquee>
+2026-01-12 18:39:37,357-src.xss_scanner-INFO-[*] Server responded with status code: 200
+2026-01-12 18:39:37,357-src.sqli_scanner-INFO-[*] Probing for SQLi on: category...
+2026-01-12 18:39:38,251-src.xss_scanner-INFO-[*] Sending probe to: http://testphp.vulnweb.com/index.php?search=<marquee>SHADOW_XSS</marquee>
+2026-01-12 18:39:38,796-src.xss_scanner-INFO-[*] Server responded with status code: 200
+2026-01-12 18:39:38,797-src.sqli_scanner-INFO-[*] Probing for SQLi on: search...
+2026-01-12 18:39:39,340-src.xss_scanner-INFO-[*] Sending probe to: http://testphp.vulnweb.com/index.php?query=<marquee>SHADOW_XSS</marquee>
+2026-01-12 18:39:39,843-src.xss_scanner-INFO-[*] Server responded with status code: 200
+2026-01-12 18:39:39,843-src.sqli_scanner-INFO-[*] Probing for SQLi on: query...
+2026-01-12 18:39:40,280-src.xss_scanner-INFO-[*] Sending probe to: http://testphp.vulnweb.com/index.php?user=<marquee>SHADOW_XSS</marquee>
+2026-01-12 18:39:40,767-src.xss_scanner-INFO-[*] Server responded with status code: 200
+2026-01-12 18:39:40,767-src.sqli_scanner-INFO-[*] Probing for SQLi on: user...
+2026-01-12 18:39:41,291-src.xss_scanner-INFO-[*] Sending probe to: http://testphp.vulnweb.com/index.php?u=<marquee>SHADOW_XSS</marquee>
+2026-01-12 18:39:41,779-src.xss_scanner-INFO-[*] Server responded with status code: 200
+2026-01-12 18:39:41,780-src.sqli_scanner-INFO-[*] Probing for SQLi on: u...
+2026-01-12 18:39:42,157-src.auto-INFO-
+[*] Brute-forcing parameters from wordlist on: http://testphp.vulnweb.com/cart.php
+2026-01-12 18:39:42,157-src.xss_scanner-INFO-[*] Sending probe to: http://testphp.vulnweb.com/cart.php?id=<marquee>SHADOW_XSS</marquee>
+2026-01-12 18:39:42,873-src.xss_scanner-INFO-[*] Server responded with status code: 200
+2026-01-12 18:39:42,874-src.sqli_scanner-INFO-[*] Probing for SQLi on: id...
+2026-01-12 18:39:43,398-src.xss_scanner-INFO-[*] Sending probe to: http://testphp.vulnweb.com/cart.php?page=<marquee>SHADOW_XSS</marquee>
+2026-01-12 18:39:43,925-src.xss_scanner-INFO-[*] Server responded with status code: 200
+2026-01-12 18:39:43,926-src.sqli_scanner-INFO-[*] Probing for SQLi on: page...
+2026-01-12 18:39:45,851-src.xss_scanner-INFO-[*] Sending probe to: http://testphp.vulnweb.com/cart.php?dir=<marquee>SHADOW_XSS</marquee>
+2026-01-12 18:39:48,158-src.xss_scanner-ERROR-[!] ERROR: Cannot connect to http://testphp.vulnweb.com/cart.php
+2026-01-12 18:39:48,159-src.sqli_scanner-INFO-[*] Probing for SQLi on: dir...
+2026-01-12 18:39:50,166-src.sqli_scanner-ERROR-[!] ERROR: could not connect to http://testphp.vulnweb.com/cart.php
+2026-01-12 18:39:50,167-src.xss_scanner-INFO-[*] Sending probe to: http://testphp.vulnweb.com/cart.php?file=<marquee>SHADOW_XSS</marquee>
+2026-01-12 18:39:52,281-src.xss_scanner-ERROR-[!] ERROR: Cannot connect to http://testphp.vulnweb.com/cart.php
+2026-01-12 18:39:52,281-src.sqli_scanner-INFO-[*] Probing for SQLi on: file...
+2026-01-12 18:39:52,888-src.xss_scanner-INFO-[*] Sending probe to: http://testphp.vulnweb.com/cart.php?cat=<marquee>SHADOW_XSS</marquee>
+2026-01-12 18:39:53,604-src.xss_scanner-INFO-[*] Server responded with status code: 200
+2026-01-12 18:39:53,605-src.sqli_scanner-INFO-[*] Probing for SQLi on: cat...
+2026-01-12 18:39:54,015-src.xss_scanner-INFO-[*] Sending probe to: http://testphp.vulnweb.com/cart.php?category=<marquee>SHADOW_XSS</marquee>
+2026-01-12 18:39:54,550-src.xss_scanner-INFO-[*] Server responded with status code: 200
+2026-01-12 18:39:54,551-src.sqli_scanner-INFO-[*] Probing for SQLi on: category...
+2026-01-12 18:39:54,969-src.xss_scanner-INFO-[*] Sending probe to: http://testphp.vulnweb.com/cart.php?search=<marquee>SHADOW_XSS</marquee>
+2026-01-12 18:39:55,609-src.xss_scanner-INFO-[*] Server responded with status code: 200
+2026-01-12 18:39:55,610-src.sqli_scanner-INFO-[*] Probing for SQLi on: search...
+2026-01-12 18:39:56,270-src.xss_scanner-INFO-[*] Sending probe to: http://testphp.vulnweb.com/cart.php?query=<marquee>SHADOW_XSS</marquee>
+2026-01-12 18:39:56,985-src.xss_scanner-INFO-[*] Server responded with status code: 200
+2026-01-12 18:39:56,986-src.sqli_scanner-INFO-[*] Probing for SQLi on: query...
+2026-01-12 18:39:57,599-src.xss_scanner-INFO-[*] Sending probe to: http://testphp.vulnweb.com/cart.php?user=<marquee>SHADOW_XSS</marquee>
+2026-01-12 18:39:58,315-src.xss_scanner-INFO-[*] Server responded with status code: 200
+2026-01-12 18:39:58,316-src.sqli_scanner-INFO-[*] Probing for SQLi on: user...
+2026-01-12 18:39:58,712-src.xss_scanner-INFO-[*] Sending probe to: http://testphp.vulnweb.com/cart.php?u=<marquee>SHADOW_XSS</marquee>
+2026-01-12 18:39:59,443-src.xss_scanner-INFO-[*] Server responded with status code: 200
+2026-01-12 18:39:59,443-src.sqli_scanner-INFO-[*] Probing for SQLi on: u...
+2026-01-12 18:39:59,826-src.auto-INFO-
+[*] Brute-forcing parameters from wordlist on: http://testphp.vulnweb.com/userinfo.php
+2026-01-12 18:39:59,826-src.xss_scanner-INFO-[*] Sending probe to: http://testphp.vulnweb.com/userinfo.php?id=<marquee>SHADOW_XSS</marquee>
+2026-01-12 18:40:00,538-src.xss_scanner-INFO-[*] Server responded with status code: 200
+2026-01-12 18:40:00,539-src.sqli_scanner-INFO-[*] Probing for SQLi on: id...
+2026-01-12 18:40:01,160-src.xss_scanner-INFO-[*] Sending probe to: http://testphp.vulnweb.com/userinfo.php?page=<marquee>SHADOW_XSS</marquee>
+2026-01-12 18:40:02,001-src.xss_scanner-INFO-[*] Server responded with status code: 200
+2026-01-12 18:40:02,002-src.sqli_scanner-INFO-[*] Probing for SQLi on: page...
+2026-01-12 18:40:02,589-src.xss_scanner-INFO-[*] Sending probe to: http://testphp.vulnweb.com/userinfo.php?dir=<marquee>SHADOW_XSS</marquee>
+2026-01-12 18:40:03,537-src.xss_scanner-INFO-[*] Server responded with status code: 200
+2026-01-12 18:40:03,538-src.sqli_scanner-INFO-[*] Probing for SQLi on: dir...
+2026-01-12 18:40:04,289-src.xss_scanner-INFO-[*] Sending probe to: http://testphp.vulnweb.com/userinfo.php?file=<marquee>SHADOW_XSS</marquee>
+2026-01-12 18:40:05,278-src.xss_scanner-INFO-[*] Server responded with status code: 200
+2026-01-12 18:40:05,279-src.sqli_scanner-INFO-[*] Probing for SQLi on: file...
+2026-01-12 18:40:06,201-src.xss_scanner-INFO-[*] Sending probe to: http://testphp.vulnweb.com/userinfo.php?cat=<marquee>SHADOW_XSS</marquee>
+2026-01-12 18:40:08,046-src.xss_scanner-INFO-[*] Server responded with status code: 200
+2026-01-12 18:40:08,047-src.sqli_scanner-INFO-[*] Probing for SQLi on: cat...
+2026-01-12 18:40:09,049-src.xss_scanner-INFO-[*] Sending probe to: http://testphp.vulnweb.com/userinfo.php?category=<marquee>SHADOW_XSS</marquee>
+2026-01-12 18:40:09,901-src.xss_scanner-INFO-[*] Server responded with status code: 200
+2026-01-12 18:40:09,902-src.sqli_scanner-INFO-[*] Probing for SQLi on: category...
+2026-01-12 18:40:10,809-src.xss_scanner-INFO-[*] Sending probe to: http://testphp.vulnweb.com/userinfo.php?search=<marquee>SHADOW_XSS</marquee>
+2026-01-12 18:40:11,729-src.xss_scanner-INFO-[*] Server responded with status code: 200
+2026-01-12 18:40:11,730-src.sqli_scanner-INFO-[*] Probing for SQLi on: search...
+2026-01-12 18:40:12,652-src.xss_scanner-INFO-[*] Sending probe to: http://testphp.vulnweb.com/userinfo.php?query=<marquee>SHADOW_XSS</marquee>
+2026-01-12 18:40:13,340-src.xss_scanner-INFO-[*] Server responded with status code: 200
+2026-01-12 18:40:13,341-src.sqli_scanner-INFO-[*] Probing for SQLi on: query...
+2026-01-12 18:40:14,291-src.xss_scanner-INFO-[*] Sending probe to: http://testphp.vulnweb.com/userinfo.php?user=<marquee>SHADOW_XSS</marquee>
+2026-01-12 18:40:15,313-src.xss_scanner-INFO-[*] Server responded with status code: 200
+2026-01-12 18:40:15,314-src.sqli_scanner-INFO-[*] Probing for SQLi on: user...
+2026-01-12 18:40:16,186-src.xss_scanner-INFO-[*] Sending probe to: http://testphp.vulnweb.com/userinfo.php?u=<marquee>SHADOW_XSS</marquee>
+2026-01-12 18:40:17,261-src.xss_scanner-INFO-[*] Server responded with status code: 200
+2026-01-12 18:40:17,262-src.sqli_scanner-INFO-[*] Probing for SQLi on: u...
+2026-01-12 18:40:17,906-src.auto-INFO-
+[*] Brute-forcing parameters from wordlist on: http://testphp.vulnweb.com/login.php
+2026-01-12 18:40:17,906-src.xss_scanner-INFO-[*] Sending probe to: http://testphp.vulnweb.com/login.php?id=<marquee>SHADOW_XSS</marquee>
+2026-01-12 18:40:18,590-src.xss_scanner-INFO-[*] Server responded with status code: 200
+2026-01-12 18:40:18,591-src.sqli_scanner-INFO-[*] Probing for SQLi on: id...
+2026-01-12 18:40:19,206-src.xss_scanner-INFO-[*] Sending probe to: http://testphp.vulnweb.com/login.php?page=<marquee>SHADOW_XSS</marquee>
+2026-01-12 18:40:19,819-src.xss_scanner-INFO-[*] Server responded with status code: 200
+2026-01-12 18:40:19,819-src.sqli_scanner-INFO-[*] Probing for SQLi on: page...
+2026-01-12 18:40:20,372-src.xss_scanner-INFO-[*] Sending probe to: http://testphp.vulnweb.com/login.php?dir=<marquee>SHADOW_XSS</marquee>
+2026-01-12 18:40:21,048-src.xss_scanner-INFO-[*] Server responded with status code: 200
+2026-01-12 18:40:21,049-src.sqli_scanner-INFO-[*] Probing for SQLi on: dir...
+2026-01-12 18:40:21,663-src.xss_scanner-INFO-[*] Sending probe to: http://testphp.vulnweb.com/login.php?file=<marquee>SHADOW_XSS</marquee>
+2026-01-12 18:40:22,381-src.xss_scanner-INFO-[*] Server responded with status code: 200
+2026-01-12 18:40:22,381-src.sqli_scanner-INFO-[*] Probing for SQLi on: file...
+2026-01-12 18:40:22,995-src.xss_scanner-INFO-[*] Sending probe to: http://testphp.vulnweb.com/login.php?cat=<marquee>SHADOW_XSS</marquee>
+2026-01-12 18:40:23,710-src.xss_scanner-INFO-[*] Server responded with status code: 200
+2026-01-12 18:40:23,711-src.sqli_scanner-INFO-[*] Probing for SQLi on: cat...
+2026-01-12 18:40:24,123-src.xss_scanner-INFO-[*] Sending probe to: http://testphp.vulnweb.com/login.php?category=<marquee>SHADOW_XSS</marquee>
+2026-01-12 18:40:24,837-src.xss_scanner-INFO-[*] Server responded with status code: 200
+2026-01-12 18:40:24,838-src.sqli_scanner-INFO-[*] Probing for SQLi on: category...
+2026-01-12 18:40:25,454-src.xss_scanner-INFO-[*] Sending probe to: http://testphp.vulnweb.com/login.php?search=<marquee>SHADOW_XSS</marquee>
+2026-01-12 18:40:26,066-src.xss_scanner-INFO-[*] Server responded with status code: 200
+2026-01-12 18:40:26,067-src.sqli_scanner-INFO-[*] Probing for SQLi on: search...
+2026-01-12 18:40:26,783-src.xss_scanner-INFO-[*] Sending probe to: http://testphp.vulnweb.com/login.php?query=<marquee>SHADOW_XSS</marquee>
+2026-01-12 18:40:27,501-src.xss_scanner-INFO-[*] Server responded with status code: 200
+2026-01-12 18:40:27,502-src.sqli_scanner-INFO-[*] Probing for SQLi on: query...
+2026-01-12 18:40:28,115-src.xss_scanner-INFO-[*] Sending probe to: http://testphp.vulnweb.com/login.php?user=<marquee>SHADOW_XSS</marquee>
+2026-01-12 18:40:28,830-src.xss_scanner-INFO-[*] Server responded with status code: 200
+2026-01-12 18:40:28,831-src.sqli_scanner-INFO-[*] Probing for SQLi on: user...
+2026-01-12 18:40:31,138-src.sqli_scanner-ERROR-[!] ERROR: could not connect to http://testphp.vulnweb.com/login.php
+2026-01-12 18:40:31,138-src.xss_scanner-INFO-[*] Sending probe to: http://testphp.vulnweb.com/login.php?u=<marquee>SHADOW_XSS</marquee>
+2026-01-12 18:40:33,537-src.xss_scanner-ERROR-[!] ERROR: Cannot connect to http://testphp.vulnweb.com/login.php
+2026-01-12 18:40:33,537-src.sqli_scanner-INFO-[*] Probing for SQLi on: u...
+2026-01-12 18:40:34,087-src.auto-INFO-
+[*] Brute-forcing parameters from wordlist on: http://testphp.vulnweb.com/disclaimer.php
+2026-01-12 18:40:34,087-src.xss_scanner-INFO-[*] Sending probe to: http://testphp.vulnweb.com/disclaimer.php?id=<marquee>SHADOW_XSS</marquee>
+2026-01-12 18:40:34,670-src.xss_scanner-INFO-[*] Server responded with status code: 200
+2026-01-12 18:40:34,671-src.sqli_scanner-INFO-[*] Probing for SQLi on: id...
+2026-01-12 18:40:35,896-src.xss_scanner-INFO-[*] Sending probe to: http://testphp.vulnweb.com/disclaimer.php?page=<marquee>SHADOW_XSS</marquee>
+2026-01-12 18:40:38,008-src.xss_scanner-ERROR-[!] ERROR: Cannot connect to http://testphp.vulnweb.com/disclaimer.php
+2026-01-12 18:40:38,008-src.sqli_scanner-INFO-[*] Probing for SQLi on: page...
+2026-01-12 18:40:40,017-src.sqli_scanner-ERROR-[!] ERROR: could not connect to http://testphp.vulnweb.com/disclaimer.php
+2026-01-12 18:40:40,017-src.xss_scanner-INFO-[*] Sending probe to: http://testphp.vulnweb.com/disclaimer.php?dir=<marquee>SHADOW_XSS</marquee>
+2026-01-12 18:40:42,129-src.xss_scanner-ERROR-[!] ERROR: Cannot connect to http://testphp.vulnweb.com/disclaimer.php
+2026-01-12 18:40:42,130-src.sqli_scanner-INFO-[*] Probing for SQLi on: dir...
+2026-01-12 18:40:44,139-src.sqli_scanner-ERROR-[!] ERROR: could not connect to http://testphp.vulnweb.com/disclaimer.php
+2026-01-12 18:40:44,139-src.xss_scanner-INFO-[*] Sending probe to: http://testphp.vulnweb.com/disclaimer.php?file=<marquee>SHADOW_XSS</marquee>
+2026-01-12 18:40:46,249-src.xss_scanner-ERROR-[!] ERROR: Cannot connect to http://testphp.vulnweb.com/disclaimer.php
+2026-01-12 18:40:46,249-src.sqli_scanner-INFO-[*] Probing for SQLi on: file...
+2026-01-12 18:40:49,679-src.sqli_scanner-ERROR-[!] ERROR: could not connect to http://testphp.vulnweb.com/disclaimer.php
+2026-01-12 18:40:49,680-src.xss_scanner-INFO-[*] Sending probe to: http://testphp.vulnweb.com/disclaimer.php?cat=<marquee>SHADOW_XSS</marquee>
+2026-01-12 18:40:51,792-src.xss_scanner-ERROR-[!] ERROR: Cannot connect to http://testphp.vulnweb.com/disclaimer.php
+2026-01-12 18:40:51,793-src.sqli_scanner-INFO-[*] Probing for SQLi on: cat...
+2026-01-12 18:40:53,803-src.sqli_scanner-ERROR-[!] ERROR: could not connect to http://testphp.vulnweb.com/disclaimer.php
+2026-01-12 18:40:53,803-src.xss_scanner-INFO-[*] Sending probe to: http://testphp.vulnweb.com/disclaimer.php?category=<marquee>SHADOW_XSS</marquee>
+2026-01-12 18:40:57,170-src.xss_scanner-ERROR-[!] ERROR: Cannot connect to http://testphp.vulnweb.com/disclaimer.php
+2026-01-12 18:40:57,171-src.sqli_scanner-INFO-[*] Probing for SQLi on: category...
+2026-01-12 18:40:59,458-src.sqli_scanner-ERROR-[!] ERROR: could not connect to http://testphp.vulnweb.com/disclaimer.php
+2026-01-12 18:40:59,459-src.xss_scanner-INFO-[*] Sending probe to: http://testphp.vulnweb.com/disclaimer.php?search=<marquee>SHADOW_XSS</marquee>
+2026-01-12 18:41:01,573-src.xss_scanner-ERROR-[!] ERROR: Cannot connect to http://testphp.vulnweb.com/disclaimer.php
+2026-01-12 18:41:01,573-src.sqli_scanner-INFO-[*] Probing for SQLi on: search...
+2026-01-12 18:41:03,581-src.sqli_scanner-ERROR-[!] ERROR: could not connect to http://testphp.vulnweb.com/disclaimer.php
+2026-01-12 18:41:03,581-src.xss_scanner-INFO-[*] Sending probe to: http://testphp.vulnweb.com/disclaimer.php?query=<marquee>SHADOW_XSS</marquee>
+2026-01-12 18:41:05,694-src.xss_scanner-ERROR-[!] ERROR: Cannot connect to http://testphp.vulnweb.com/disclaimer.php
+2026-01-12 18:41:05,697-src.sqli_scanner-INFO-[*] Probing for SQLi on: query...
+2026-01-12 18:41:07,704-src.sqli_scanner-ERROR-[!] ERROR: could not connect to http://testphp.vulnweb.com/disclaimer.php
+2026-01-12 18:41:07,705-src.xss_scanner-INFO-[*] Sending probe to: http://testphp.vulnweb.com/disclaimer.php?user=<marquee>SHADOW_XSS</marquee>
+2026-01-12 18:41:11,178-src.xss_scanner-ERROR-[!] ERROR: Cannot connect to http://testphp.vulnweb.com/disclaimer.php
+2026-01-12 18:41:11,178-src.sqli_scanner-INFO-[*] Probing for SQLi on: user...
+2026-01-12 18:41:13,531-src.sqli_scanner-ERROR-[!] ERROR: could not connect to http://testphp.vulnweb.com/disclaimer.php
+2026-01-12 18:41:13,532-src.xss_scanner-INFO-[*] Sending probe to: http://testphp.vulnweb.com/disclaimer.php?u=<marquee>SHADOW_XSS</marquee>
+2026-01-12 18:41:15,254-src.xss_scanner-INFO-[*] Server responded with status code: 200
+2026-01-12 18:41:15,256-src.sqli_scanner-INFO-[*] Probing for SQLi on: u...
+2026-01-12 18:41:15,939-src.auto-INFO-
+[*] Brute-forcing parameters from wordlist on: http://testphp.vulnweb.com/privacy.php
+2026-01-12 18:41:15,939-src.xss_scanner-INFO-[*] Sending probe to: http://testphp.vulnweb.com/privacy.php?id=<marquee>SHADOW_XSS</marquee>
+2026-01-12 18:41:16,550-src.xss_scanner-INFO-[*] Server responded with status code: 404
+2026-01-12 18:41:16,551-src.sqli_scanner-INFO-[*] Probing for SQLi on: id...
+2026-01-12 18:41:17,164-src.xss_scanner-INFO-[*] Sending probe to: http://testphp.vulnweb.com/privacy.php?page=<marquee>SHADOW_XSS</marquee>
+2026-01-12 18:41:17,776-src.xss_scanner-INFO-[*] Server responded with status code: 404
+2026-01-12 18:41:17,776-src.sqli_scanner-INFO-[*] Probing for SQLi on: page...
+2026-01-12 18:41:18,290-src.xss_scanner-INFO-[*] Sending probe to: http://testphp.vulnweb.com/privacy.php?dir=<marquee>SHADOW_XSS</marquee>
+2026-01-12 18:41:18,903-src.xss_scanner-INFO-[*] Server responded with status code: 404
+2026-01-12 18:41:18,903-src.sqli_scanner-INFO-[*] Probing for SQLi on: dir...
+2026-01-12 18:41:19,503-src.xss_scanner-INFO-[*] Sending probe to: http://testphp.vulnweb.com/privacy.php?file=<marquee>SHADOW_XSS</marquee>
+2026-01-12 18:41:20,218-src.xss_scanner-INFO-[*] Server responded with status code: 404
+2026-01-12 18:41:20,219-src.sqli_scanner-INFO-[*] Probing for SQLi on: file...
+2026-01-12 18:41:20,826-src.xss_scanner-INFO-[*] Sending probe to: http://testphp.vulnweb.com/privacy.php?cat=<marquee>SHADOW_XSS</marquee>
+2026-01-12 18:41:21,467-src.xss_scanner-INFO-[*] Server responded with status code: 404
+2026-01-12 18:41:21,467-src.sqli_scanner-INFO-[*] Probing for SQLi on: cat...
+2026-01-12 18:41:22,095-src.xss_scanner-INFO-[*] Sending probe to: http://testphp.vulnweb.com/privacy.php?category=<marquee>SHADOW_XSS</marquee>
+2026-01-12 18:41:22,795-src.xss_scanner-INFO-[*] Server responded with status code: 404
+2026-01-12 18:41:22,797-src.sqli_scanner-INFO-[*] Probing for SQLi on: category...
+2026-01-12 18:41:23,410-src.xss_scanner-INFO-[*] Sending probe to: http://testphp.vulnweb.com/privacy.php?search=<marquee>SHADOW_XSS</marquee>
+2026-01-12 18:41:25,150-src.xss_scanner-INFO-[*] Server responded with status code: 404
+2026-01-12 18:41:25,151-src.sqli_scanner-INFO-[*] Probing for SQLi on: search...
+2026-01-12 18:41:25,765-src.xss_scanner-INFO-[*] Sending probe to: http://testphp.vulnweb.com/privacy.php?query=<marquee>SHADOW_XSS</marquee>
+2026-01-12 18:41:26,481-src.xss_scanner-INFO-[*] Server responded with status code: 404
+2026-01-12 18:41:26,482-src.sqli_scanner-INFO-[*] Probing for SQLi on: query...
+2026-01-12 18:41:27,096-src.xss_scanner-INFO-[*] Sending probe to: http://testphp.vulnweb.com/privacy.php?user=<marquee>SHADOW_XSS</marquee>
+2026-01-12 18:41:27,915-src.xss_scanner-INFO-[*] Server responded with status code: 404
+2026-01-12 18:41:27,916-src.sqli_scanner-INFO-[*] Probing for SQLi on: user...
+2026-01-12 18:41:28,634-src.xss_scanner-INFO-[*] Sending probe to: http://testphp.vulnweb.com/privacy.php?u=<marquee>SHADOW_XSS</marquee>
+2026-01-12 18:41:29,348-src.xss_scanner-INFO-[*] Server responded with status code: 404
+2026-01-12 18:41:29,349-src.sqli_scanner-INFO-[*] Probing for SQLi on: u...
+2026-01-12 18:41:30,066-src.auto-INFO-
+[*] Brute-forcing parameters from wordlist on: http://testphp.vulnweb.com/AJAX/index.php
+2026-01-12 18:41:30,066-src.xss_scanner-INFO-[*] Sending probe to: http://testphp.vulnweb.com/AJAX/index.php?id=<marquee>SHADOW_XSS</marquee>
+2026-01-12 18:41:30,682-src.xss_scanner-INFO-[*] Server responded with status code: 200
+2026-01-12 18:41:30,683-src.sqli_scanner-INFO-[*] Probing for SQLi on: id...
+2026-01-12 18:41:31,295-src.xss_scanner-INFO-[*] Sending probe to: http://testphp.vulnweb.com/AJAX/index.php?page=<marquee>SHADOW_XSS</marquee>
+2026-01-12 18:41:32,114-src.xss_scanner-INFO-[*] Server responded with status code: 200
+2026-01-12 18:41:32,115-src.sqli_scanner-INFO-[*] Probing for SQLi on: page...
+2026-01-12 18:41:32,934-src.xss_scanner-INFO-[*] Sending probe to: http://testphp.vulnweb.com/AJAX/index.php?dir=<marquee>SHADOW_XSS</marquee>
+2026-01-12 18:41:33,547-src.xss_scanner-INFO-[*] Server responded with status code: 200
+2026-01-12 18:41:33,548-src.sqli_scanner-INFO-[*] Probing for SQLi on: dir...
+2026-01-12 18:41:34,165-src.xss_scanner-INFO-[*] Sending probe to: http://testphp.vulnweb.com/AJAX/index.php?file=<marquee>SHADOW_XSS</marquee>
+2026-01-12 18:41:34,879-src.xss_scanner-INFO-[*] Server responded with status code: 200
+2026-01-12 18:41:34,880-src.sqli_scanner-INFO-[*] Probing for SQLi on: file...
+2026-01-12 18:41:37,186-src.sqli_scanner-ERROR-[!] ERROR: could not connect to http://testphp.vulnweb.com/AJAX/index.php
+2026-01-12 18:41:37,186-src.xss_scanner-INFO-[*] Sending probe to: http://testphp.vulnweb.com/AJAX/index.php?cat=<marquee>SHADOW_XSS</marquee>
+2026-01-12 18:41:37,951-src.xss_scanner-INFO-[*] Server responded with status code: 200
+2026-01-12 18:41:37,951-src.sqli_scanner-INFO-[*] Probing for SQLi on: cat...
+2026-01-12 18:41:38,567-src.xss_scanner-INFO-[*] Sending probe to: http://testphp.vulnweb.com/AJAX/index.php?category=<marquee>SHADOW_XSS</marquee>
+2026-01-12 18:41:39,282-src.xss_scanner-INFO-[*] Server responded with status code: 200
+2026-01-12 18:41:39,283-src.sqli_scanner-INFO-[*] Probing for SQLi on: category...
+2026-01-12 18:41:39,899-src.xss_scanner-INFO-[*] Sending probe to: http://testphp.vulnweb.com/AJAX/index.php?search=<marquee>SHADOW_XSS</marquee>
+2026-01-12 18:41:40,380-src.xss_scanner-INFO-[*] Server responded with status code: 200
+2026-01-12 18:41:40,381-src.sqli_scanner-INFO-[*] Probing for SQLi on: search...
+2026-01-12 18:41:40,756-src.xss_scanner-INFO-[*] Sending probe to: http://testphp.vulnweb.com/AJAX/index.php?query=<marquee>SHADOW_XSS</marquee>
+2026-01-12 18:41:41,433-src.xss_scanner-INFO-[*] Server responded with status code: 200
+2026-01-12 18:41:41,434-src.sqli_scanner-INFO-[*] Probing for SQLi on: query...
+2026-01-12 18:41:41,803-src.xss_scanner-INFO-[*] Sending probe to: http://testphp.vulnweb.com/AJAX/index.php?user=<marquee>SHADOW_XSS</marquee>
+2026-01-12 18:41:42,281-src.xss_scanner-INFO-[*] Server responded with status code: 200
+2026-01-12 18:41:42,281-src.sqli_scanner-INFO-[*] Probing for SQLi on: user...
+2026-01-12 18:41:42,866-src.xss_scanner-INFO-[*] Sending probe to: http://testphp.vulnweb.com/AJAX/index.php?u=<marquee>SHADOW_XSS</marquee>
+2026-01-12 18:41:43,583-src.xss_scanner-INFO-[*] Server responded with status code: 200
+2026-01-12 18:41:43,584-src.sqli_scanner-INFO-[*] Probing for SQLi on: u...
+2026-01-12 18:41:44,199-src.auto-INFO-
+[*] Brute-forcing parameters from wordlist on: http://testphp.vulnweb.com/categories.php
+2026-01-12 18:41:44,200-src.xss_scanner-INFO-[*] Sending probe to: http://testphp.vulnweb.com/categories.php?id=<marquee>SHADOW_XSS</marquee>
+2026-01-12 18:41:44,914-src.xss_scanner-INFO-[*] Server responded with status code: 200
+2026-01-12 18:41:44,915-src.sqli_scanner-INFO-[*] Probing for SQLi on: id...
+2026-01-12 18:41:45,531-src.xss_scanner-INFO-[*] Sending probe to: http://testphp.vulnweb.com/categories.php?page=<marquee>SHADOW_XSS</marquee>
+2026-01-12 18:41:46,247-src.xss_scanner-INFO-[*] Server responded with status code: 200
+2026-01-12 18:41:46,248-src.sqli_scanner-INFO-[*] Probing for SQLi on: page...
+2026-01-12 18:41:46,637-src.xss_scanner-INFO-[*] Sending probe to: http://testphp.vulnweb.com/categories.php?dir=<marquee>SHADOW_XSS</marquee>
+2026-01-12 18:41:47,372-src.xss_scanner-INFO-[*] Server responded with status code: 200
+2026-01-12 18:41:47,373-src.sqli_scanner-INFO-[*] Probing for SQLi on: dir...
+2026-01-12 18:41:47,986-src.xss_scanner-INFO-[*] Sending probe to: http://testphp.vulnweb.com/categories.php?file=<marquee>SHADOW_XSS</marquee>
+2026-01-12 18:41:48,705-src.xss_scanner-INFO-[*] Server responded with status code: 200
+2026-01-12 18:41:48,705-src.sqli_scanner-INFO-[*] Probing for SQLi on: file...
+2026-01-12 18:41:49,227-src.xss_scanner-INFO-[*] Sending probe to: http://testphp.vulnweb.com/categories.php?cat=<marquee>SHADOW_XSS</marquee>
+2026-01-12 18:41:49,932-src.xss_scanner-INFO-[*] Server responded with status code: 200
+2026-01-12 18:41:49,933-src.sqli_scanner-INFO-[*] Probing for SQLi on: cat...
+2026-01-12 18:41:50,324-src.xss_scanner-INFO-[*] Sending probe to: http://testphp.vulnweb.com/categories.php?category=<marquee>SHADOW_XSS</marquee>
+2026-01-12 18:41:50,956-src.xss_scanner-INFO-[*] Server responded with status code: 200
+2026-01-12 18:41:50,956-src.sqli_scanner-INFO-[*] Probing for SQLi on: category...
+2026-01-12 18:41:51,571-src.xss_scanner-INFO-[*] Sending probe to: http://testphp.vulnweb.com/categories.php?search=<marquee>SHADOW_XSS</marquee>
+2026-01-12 18:41:53,619-src.xss_scanner-INFO-[*] Server responded with status code: 200
+2026-01-12 18:41:53,620-src.sqli_scanner-INFO-[*] Probing for SQLi on: search...
+2026-01-12 18:41:55,925-src.sqli_scanner-ERROR-[!] ERROR: could not connect to http://testphp.vulnweb.com/categories.php
+2026-01-12 18:41:55,926-src.xss_scanner-INFO-[*] Sending probe to: http://testphp.vulnweb.com/categories.php?query=<marquee>SHADOW_XSS</marquee>
+2026-01-12 18:41:59,305-src.xss_scanner-ERROR-[!] ERROR: Cannot connect to http://testphp.vulnweb.com/categories.php
+2026-01-12 18:41:59,306-src.sqli_scanner-INFO-[*] Probing for SQLi on: query...
+2026-01-12 18:42:01,314-src.sqli_scanner-ERROR-[!] ERROR: could not connect to http://testphp.vulnweb.com/categories.php
+2026-01-12 18:42:01,314-src.xss_scanner-INFO-[*] Sending probe to: http://testphp.vulnweb.com/categories.php?user=<marquee>SHADOW_XSS</marquee>
+2026-01-12 18:42:03,707-src.xss_scanner-ERROR-[!] ERROR: Cannot connect to http://testphp.vulnweb.com/categories.php
+2026-01-12 18:42:03,708-src.sqli_scanner-INFO-[*] Probing for SQLi on: user...
+2026-01-12 18:42:05,715-src.sqli_scanner-ERROR-[!] ERROR: could not connect to http://testphp.vulnweb.com/categories.php
+2026-01-12 18:42:05,716-src.xss_scanner-INFO-[*] Sending probe to: http://testphp.vulnweb.com/categories.php?u=<marquee>SHADOW_XSS</marquee>
+2026-01-12 18:42:08,265-src.xss_scanner-ERROR-[!] ERROR: Cannot connect to http://testphp.vulnweb.com/categories.php
+2026-01-12 18:42:08,265-src.sqli_scanner-INFO-[*] Probing for SQLi on: u...
+2026-01-12 18:42:10,617-src.sqli_scanner-ERROR-[!] ERROR: could not connect to http://testphp.vulnweb.com/categories.php
+2026-01-12 18:42:10,619-src.auto-INFO-
+[*] Brute-forcing parameters from wordlist on: http://testphp.vulnweb.com/guestbook.php
+2026-01-12 18:42:10,619-src.xss_scanner-INFO-[*] Sending probe to: http://testphp.vulnweb.com/guestbook.php?id=<marquee>SHADOW_XSS</marquee>
+2026-01-12 18:42:12,733-src.xss_scanner-ERROR-[!] ERROR: Cannot connect to http://testphp.vulnweb.com/guestbook.php
+2026-01-12 18:42:12,734-src.sqli_scanner-INFO-[*] Probing for SQLi on: id...
+2026-01-12 18:42:14,903-src.xss_scanner-INFO-[*] Sending probe to: http://testphp.vulnweb.com/guestbook.php?page=<marquee>SHADOW_XSS</marquee>
+2026-01-12 18:42:15,700-src.xss_scanner-INFO-[*] Server responded with status code: 200
+2026-01-12 18:42:15,701-src.sqli_scanner-INFO-[*] Probing for SQLi on: page...
+2026-01-12 18:42:16,090-src.xss_scanner-INFO-[*] Sending probe to: http://testphp.vulnweb.com/guestbook.php?dir=<marquee>SHADOW_XSS</marquee>
+2026-01-12 18:42:16,751-src.xss_scanner-INFO-[*] Server responded with status code: 200
+2026-01-12 18:42:16,752-src.sqli_scanner-INFO-[*] Probing for SQLi on: dir...
+2026-01-12 18:42:17,125-src.xss_scanner-INFO-[*] Sending probe to: http://testphp.vulnweb.com/guestbook.php?file=<marquee>SHADOW_XSS</marquee>
+2026-01-12 18:42:19,525-src.xss_scanner-INFO-[*] Server responded with status code: 200
+2026-01-12 18:42:19,526-src.sqli_scanner-INFO-[*] Probing for SQLi on: file...
+2026-01-12 18:42:20,471-src.xss_scanner-INFO-[*] Sending probe to: http://testphp.vulnweb.com/guestbook.php?cat=<marquee>SHADOW_XSS</marquee>
+2026-01-12 18:42:21,164-src.xss_scanner-INFO-[*] Server responded with status code: 200
+2026-01-12 18:42:21,165-src.sqli_scanner-INFO-[*] Probing for SQLi on: cat...
+2026-01-12 18:42:21,736-src.xss_scanner-INFO-[*] Sending probe to: http://testphp.vulnweb.com/guestbook.php?category=<marquee>SHADOW_XSS</marquee>
+2026-01-12 18:42:22,392-src.xss_scanner-INFO-[*] Server responded with status code: 200
+2026-01-12 18:42:22,393-src.sqli_scanner-INFO-[*] Probing for SQLi on: category...
+2026-01-12 18:42:23,009-src.xss_scanner-INFO-[*] Sending probe to: http://testphp.vulnweb.com/guestbook.php?search=<marquee>SHADOW_XSS</marquee>
+2026-01-12 18:42:23,485-src.xss_scanner-INFO-[*] Server responded with status code: 200
+2026-01-12 18:42:23,486-src.sqli_scanner-INFO-[*] Probing for SQLi on: search...
+2026-01-12 18:42:24,031-src.xss_scanner-INFO-[*] Sending probe to: http://testphp.vulnweb.com/guestbook.php?query=<marquee>SHADOW_XSS</marquee>
+2026-01-12 18:42:24,535-src.xss_scanner-INFO-[*] Server responded with status code: 200
+2026-01-12 18:42:24,535-src.sqli_scanner-INFO-[*] Probing for SQLi on: query...
+2026-01-12 18:42:25,159-src.xss_scanner-INFO-[*] Sending probe to: http://testphp.vulnweb.com/guestbook.php?user=<marquee>SHADOW_XSS</marquee>
+2026-01-12 18:42:25,638-src.xss_scanner-INFO-[*] Server responded with status code: 200
+2026-01-12 18:42:25,638-src.sqli_scanner-INFO-[*] Probing for SQLi on: user...
+2026-01-12 18:42:27,062-src.xss_scanner-INFO-[*] Sending probe to: http://testphp.vulnweb.com/guestbook.php?u=<marquee>SHADOW_XSS</marquee>
+2026-01-12 18:42:27,693-src.xss_scanner-INFO-[*] Server responded with status code: 200
+2026-01-12 18:42:27,694-src.sqli_scanner-INFO-[*] Probing for SQLi on: u...
+2026-01-12 18:42:28,206-src.auto-INFO-
+[*] Brute-forcing parameters from wordlist on: http://testphp.vulnweb.com/artists.php
+2026-01-12 18:42:28,207-src.xss_scanner-INFO-[*] Sending probe to: http://testphp.vulnweb.com/artists.php?id=<marquee>SHADOW_XSS</marquee>
+2026-01-12 18:42:28,688-src.xss_scanner-INFO-[*] Server responded with status code: 200
+2026-01-12 18:42:28,689-src.sqli_scanner-INFO-[*] Probing for SQLi on: id...
+2026-01-12 18:42:29,255-src.xss_scanner-INFO-[*] Sending probe to: http://testphp.vulnweb.com/artists.php?page=<marquee>SHADOW_XSS</marquee>
+2026-01-12 18:42:29,970-src.xss_scanner-INFO-[*] Server responded with status code: 200
+2026-01-12 18:42:29,971-src.sqli_scanner-INFO-[*] Probing for SQLi on: page...
+2026-01-12 18:42:30,586-src.xss_scanner-INFO-[*] Sending probe to: http://testphp.vulnweb.com/artists.php?dir=<marquee>SHADOW_XSS</marquee>
+2026-01-12 18:42:31,074-src.xss_scanner-INFO-[*] Server responded with status code: 200
+2026-01-12 18:42:31,075-src.sqli_scanner-INFO-[*] Probing for SQLi on: dir...
+2026-01-12 18:42:31,610-src.xss_scanner-INFO-[*] Sending probe to: http://testphp.vulnweb.com/artists.php?file=<marquee>SHADOW_XSS</marquee>
+2026-01-12 18:42:32,325-src.xss_scanner-INFO-[*] Server responded with status code: 200
+2026-01-12 18:42:32,326-src.sqli_scanner-INFO-[*] Probing for SQLi on: file...
+2026-01-12 18:42:32,732-src.xss_scanner-INFO-[*] Sending probe to: http://testphp.vulnweb.com/artists.php?cat=<marquee>SHADOW_XSS</marquee>
+2026-01-12 18:42:33,453-src.xss_scanner-INFO-[*] Server responded with status code: 200
+2026-01-12 18:42:33,453-src.sqli_scanner-INFO-[*] Probing for SQLi on: cat...
+2026-01-12 18:42:33,831-src.xss_scanner-INFO-[*] Sending probe to: http://testphp.vulnweb.com/artists.php?category=<marquee>SHADOW_XSS</marquee>
+2026-01-12 18:42:34,450-src.xss_scanner-INFO-[*] Server responded with status code: 200
+2026-01-12 18:42:34,451-src.sqli_scanner-INFO-[*] Probing for SQLi on: category...
+2026-01-12 18:42:34,823-src.xss_scanner-INFO-[*] Sending probe to: http://testphp.vulnweb.com/artists.php?search=<marquee>SHADOW_XSS</marquee>
+2026-01-12 18:53:59,124-src.auto-INFO-======================================================================
+2026-01-12 18:53:59,124-src.auto-INFO-Performing a header scan of the url http://testphp.vulnweb.com
+2026-01-12 18:53:59,124-src.auto-INFO-Fuzzing link: http://testphp.vulnweb.com
+2026-01-12 18:53:59,124-src.auto-INFO-======================================================================
+2026-01-12 18:53:59,124-src.auto-INFO-Crawling the url http://testphp.vulnweb.com
+2026-01-12 18:53:59,125-src.crawler-INFO-Starting crawl for URL: http://testphp.vulnweb.com
+2026-01-12 18:53:59,539-src.crawler-INFO-Following links were scraped from the site(http://testphp.vulnweb.com):
+2026-01-12 18:53:59,540-src.crawler-INFO-FOUND:https://www.acunetix.com/
+2026-01-12 18:53:59,540-src.crawler-INFO-FOUND:https://www.acunetix.com/vulnerability-scanner/
+2026-01-12 18:53:59,540-src.crawler-INFO-FOUND:index.php
+2026-01-12 18:53:59,540-src.crawler-INFO-FOUND:categories.php
+2026-01-12 18:53:59,540-src.crawler-INFO-FOUND:artists.php
+2026-01-12 18:53:59,540-src.crawler-INFO-FOUND:disclaimer.php
+2026-01-12 18:53:59,540-src.crawler-INFO-FOUND:cart.php
+2026-01-12 18:53:59,540-src.crawler-INFO-FOUND:guestbook.php
+2026-01-12 18:53:59,540-src.crawler-INFO-FOUND:AJAX/index.php
+2026-01-12 18:53:59,540-src.crawler-INFO-FOUND:categories.php
+2026-01-12 18:53:59,540-src.crawler-INFO-FOUND:artists.php
+2026-01-12 18:53:59,540-src.crawler-INFO-FOUND:cart.php
+2026-01-12 18:53:59,540-src.crawler-INFO-FOUND:login.php
+2026-01-12 18:53:59,540-src.crawler-INFO-[!]IMPORTANT: login.php
+2026-01-12 18:53:59,541-src.crawler-INFO-FOUND:userinfo.php
+2026-01-12 18:53:59,541-src.crawler-INFO-FOUND:guestbook.php
+2026-01-12 18:53:59,541-src.crawler-INFO-FOUND:AJAX/index.php
+2026-01-12 18:53:59,541-src.crawler-INFO-FOUND:http://www.acunetix.com
+2026-01-12 18:53:59,541-src.crawler-INFO-FOUND:https://www.acunetix.com/vulnerability-scanner/php-security-scanner/
+2026-01-12 18:53:59,541-src.crawler-INFO-FOUND:https://www.acunetix.com/blog/articles/prevent-sql-injection-vulnerabilities-in-php-applications/
+2026-01-12 18:53:59,541-src.crawler-INFO-FOUND:http://www.eclectasy.com/Fractal-Explorer/index.html
+2026-01-12 18:53:59,541-src.crawler-INFO-FOUND:http://www.acunetix.com
+2026-01-12 18:53:59,541-src.crawler-INFO-FOUND:privacy.php
+2026-01-12 18:53:59,541-src.crawler-INFO-FOUND:mailto:wvs@acunetix.com
+2026-01-12 18:53:59,541-src.crawler-INFO-FOUND:/Mod_Rewrite_Shop/
+2026-01-12 18:53:59,541-src.crawler-INFO-FOUND:/hpp/
+2026-01-12 18:53:59,543-src.auto-INFO-
+[*] Brute-forcing parameters from wordlist on: http://testphp.vulnweb.com/AJAX/index.php
+2026-01-12 18:53:59,543-src.xss_scanner-INFO-[*] Sending probe to: http://testphp.vulnweb.com/AJAX/index.php?id=<marquee>SHADOW_XSS</marquee>
+2026-01-12 18:54:00,149-src.xss_scanner-INFO-[*] Server responded with status code: 200
+2026-01-12 18:54:00,151-src.sqli_scanner-INFO-[*] Probing for SQLi on: id...
+2026-01-12 18:54:01,072-src.xss_scanner-INFO-[*] Sending probe to: http://testphp.vulnweb.com/AJAX/index.php?page=<marquee>SHADOW_XSS</marquee>
+2026-01-12 18:54:01,686-src.xss_scanner-INFO-[*] Server responded with status code: 200
+2026-01-12 18:54:01,687-src.sqli_scanner-INFO-[*] Probing for SQLi on: page...
+2026-01-12 18:54:02,915-src.xss_scanner-INFO-[*] Sending probe to: http://testphp.vulnweb.com/AJAX/index.php?dir=<marquee>SHADOW_XSS</marquee>
+2026-01-12 18:54:03,406-src.xss_scanner-INFO-[*] Server responded with status code: 200
+2026-01-12 18:54:03,407-src.sqli_scanner-INFO-[*] Probing for SQLi on: dir...
+2026-01-12 18:54:04,202-src.xss_scanner-INFO-[*] Sending probe to: http://testphp.vulnweb.com/AJAX/index.php?file=<marquee>SHADOW_XSS</marquee>
+2026-01-12 18:54:04,861-src.xss_scanner-INFO-[*] Server responded with status code: 200
+2026-01-12 18:54:04,862-src.sqli_scanner-INFO-[*] Probing for SQLi on: file...
+2026-01-12 18:54:05,782-src.xss_scanner-INFO-[*] Sending probe to: http://testphp.vulnweb.com/AJAX/index.php?cat=<marquee>SHADOW_XSS</marquee>
+2026-01-12 18:54:06,356-src.xss_scanner-INFO-[*] Server responded with status code: 200
+2026-01-12 18:54:06,357-src.sqli_scanner-INFO-[*] Probing for SQLi on: cat...
+2026-01-12 18:54:07,525-src.xss_scanner-INFO-[*] Sending probe to: http://testphp.vulnweb.com/AJAX/index.php?category=<marquee>SHADOW_XSS</marquee>
+2026-01-12 18:54:08,137-src.xss_scanner-INFO-[*] Server responded with status code: 200
+2026-01-12 18:54:08,138-src.sqli_scanner-INFO-[*] Probing for SQLi on: category...
+2026-01-12 18:54:09,366-src.xss_scanner-INFO-[*] Sending probe to: http://testphp.vulnweb.com/AJAX/index.php?search=<marquee>SHADOW_XSS</marquee>
+2026-01-12 18:54:09,865-src.xss_scanner-INFO-[*] Server responded with status code: 200
+2026-01-12 18:54:09,866-src.sqli_scanner-INFO-[*] Probing for SQLi on: search...
+2026-01-12 18:54:11,007-src.xss_scanner-INFO-[*] Sending probe to: http://testphp.vulnweb.com/AJAX/index.php?query=<marquee>SHADOW_XSS</marquee>
+2026-01-12 18:54:11,620-src.xss_scanner-INFO-[*] Server responded with status code: 200
+2026-01-12 18:54:11,621-src.sqli_scanner-INFO-[*] Probing for SQLi on: query...
+2026-01-12 18:54:12,476-src.xss_scanner-INFO-[*] Sending probe to: http://testphp.vulnweb.com/AJAX/index.php?user=<marquee>SHADOW_XSS</marquee>
+2026-01-12 18:54:13,062-src.xss_scanner-INFO-[*] Server responded with status code: 200
+2026-01-12 18:54:13,063-src.sqli_scanner-INFO-[*] Probing for SQLi on: user...
+2026-01-12 18:54:14,030-src.xss_scanner-INFO-[*] Sending probe to: http://testphp.vulnweb.com/AJAX/index.php?u=<marquee>SHADOW_XSS</marquee>
+2026-01-12 18:54:14,511-src.xss_scanner-INFO-[*] Server responded with status code: 200
+2026-01-12 18:54:14,512-src.sqli_scanner-INFO-[*] Probing for SQLi on: u...
+2026-01-12 18:54:15,475-src.auto-INFO-
+[*] Brute-forcing parameters from wordlist on: http://testphp.vulnweb.com/login.php
+2026-01-12 18:54:15,476-src.xss_scanner-INFO-[*] Sending probe to: http://testphp.vulnweb.com/login.php?id=<marquee>SHADOW_XSS</marquee>
+2026-01-12 18:54:16,127-src.xss_scanner-INFO-[*] Server responded with status code: 200
+2026-01-12 18:54:16,128-src.sqli_scanner-INFO-[*] Probing for SQLi on: id...
+2026-01-12 18:54:17,353-src.xss_scanner-INFO-[*] Sending probe to: http://testphp.vulnweb.com/login.php?page=<marquee>SHADOW_XSS</marquee>
+2026-01-12 18:54:17,968-src.xss_scanner-INFO-[*] Server responded with status code: 200
+2026-01-12 18:54:17,968-src.sqli_scanner-INFO-[*] Probing for SQLi on: page...
+2026-01-12 18:54:19,198-src.xss_scanner-INFO-[*] Sending probe to: http://testphp.vulnweb.com/login.php?dir=<marquee>SHADOW_XSS</marquee>
+2026-01-12 18:54:19,914-src.xss_scanner-INFO-[*] Server responded with status code: 200
+2026-01-12 18:54:19,914-src.sqli_scanner-INFO-[*] Probing for SQLi on: dir...
+2026-01-12 18:54:20,837-src.xss_scanner-INFO-[*] Sending probe to: http://testphp.vulnweb.com/login.php?file=<marquee>SHADOW_XSS</marquee>
+2026-01-12 18:54:21,325-src.xss_scanner-INFO-[*] Server responded with status code: 200
+2026-01-12 18:54:21,326-src.sqli_scanner-INFO-[*] Probing for SQLi on: file...
+2026-01-12 18:54:22,177-src.xss_scanner-INFO-[*] Sending probe to: http://testphp.vulnweb.com/login.php?cat=<marquee>SHADOW_XSS</marquee>
+2026-01-12 18:54:22,670-src.xss_scanner-INFO-[*] Server responded with status code: 200
+2026-01-12 18:54:22,671-src.sqli_scanner-INFO-[*] Probing for SQLi on: cat...
+2026-01-12 18:54:23,804-src.xss_scanner-INFO-[*] Sending probe to: http://testphp.vulnweb.com/login.php?category=<marquee>SHADOW_XSS</marquee>
+2026-01-12 18:54:24,294-src.xss_scanner-INFO-[*] Server responded with status code: 200
+2026-01-12 18:54:24,295-src.sqli_scanner-INFO-[*] Probing for SQLi on: category...
+2026-01-12 18:54:25,178-src.xss_scanner-INFO-[*] Sending probe to: http://testphp.vulnweb.com/login.php?search=<marquee>SHADOW_XSS</marquee>
+2026-01-12 18:54:25,853-src.xss_scanner-INFO-[*] Server responded with status code: 200
+2026-01-12 18:54:25,854-src.sqli_scanner-INFO-[*] Probing for SQLi on: search...
+2026-01-12 18:54:26,995-src.xss_scanner-INFO-[*] Sending probe to: http://testphp.vulnweb.com/login.php?query=<marquee>SHADOW_XSS</marquee>
+2026-01-12 18:54:27,584-src.xss_scanner-INFO-[*] Server responded with status code: 200
+2026-01-12 18:54:27,584-src.sqli_scanner-INFO-[*] Probing for SQLi on: query...
+2026-01-12 18:54:29,845-src.xss_scanner-INFO-[*] Sending probe to: http://testphp.vulnweb.com/login.php?user=<marquee>SHADOW_XSS</marquee>
+2026-01-12 18:54:30,462-src.xss_scanner-INFO-[*] Server responded with status code: 200
+2026-01-12 18:54:30,463-src.sqli_scanner-INFO-[*] Probing for SQLi on: user...
+2026-01-12 18:54:31,591-src.xss_scanner-INFO-[*] Sending probe to: http://testphp.vulnweb.com/login.php?u=<marquee>SHADOW_XSS</marquee>
+2026-01-12 18:54:32,202-src.xss_scanner-INFO-[*] Server responded with status code: 200
+2026-01-12 18:54:32,203-src.sqli_scanner-INFO-[*] Probing for SQLi on: u...
+2026-01-12 18:54:33,096-src.auto-INFO-
+[*] Brute-forcing parameters from wordlist on: http://testphp.vulnweb.com/disclaimer.php
+2026-01-12 18:54:33,096-src.xss_scanner-INFO-[*] Sending probe to: http://testphp.vulnweb.com/disclaimer.php?id=<marquee>SHADOW_XSS</marquee>
+2026-01-12 18:54:33,739-src.xss_scanner-INFO-[*] Server responded with status code: 200
+2026-01-12 18:54:33,740-src.sqli_scanner-INFO-[*] Probing for SQLi on: id...
+2026-01-12 18:54:34,865-src.xss_scanner-INFO-[*] Sending probe to: http://testphp.vulnweb.com/disclaimer.php?page=<marquee>SHADOW_XSS</marquee>
+2026-01-12 18:54:35,365-src.xss_scanner-INFO-[*] Server responded with status code: 200
+2026-01-12 18:54:35,366-src.sqli_scanner-INFO-[*] Probing for SQLi on: page...
+2026-01-12 18:54:36,505-src.xss_scanner-INFO-[*] Sending probe to: http://testphp.vulnweb.com/disclaimer.php?dir=<marquee>SHADOW_XSS</marquee>
+2026-01-12 18:54:37,117-src.xss_scanner-INFO-[*] Server responded with status code: 200
+2026-01-12 18:54:37,118-src.sqli_scanner-INFO-[*] Probing for SQLi on: dir...

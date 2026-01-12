@@ -1,6 +1,8 @@
 import os.path
-
+import logging
 import requests
+
+logger = logging.getLogger(__name__)
 
 headers = {
     "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
@@ -16,13 +18,13 @@ def check_sqli(url, parameter_name) -> None:
     payload = "'"
     final_url = f"{cleaned_url}{separator}{parameter_name}={payload}"
     try:
-        print(f"[*] Probing for SQLi on: {parameter_name}...")
+        logger.info(f"[*] Probing for SQLi on: {parameter_name}...")
         response = requests.get(final_url,headers=headers,timeout=2)
         with open(error_list,"r") as file:
             for error in file:
                 clean_error = error.strip()
                 if clean_error.lower() in response.text.lower():
-                    print(f"[!!] ALERT: database vulnerability: {final_url}")
+                    logger.info(f"[!!] ALERT: database vulnerability: {final_url}")
                     return
     except requests.exceptions.RequestException:
-        print(f"[!] ERROR: could not connect to {url}")
+        logger.error(f"[!] ERROR: could not connect to {url}")
